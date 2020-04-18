@@ -329,10 +329,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 
                 for(int i = 0;i < pprovOficial.length;i++){
                     
+                    //DICA: VOCÊ TAMBÉM PODE USAR pprovOficial[i].equals(pprov[i])
                     if(pprovOficial[i] == null ? (pprov[i]) == null : pprovOficial[i].equals(pprov[i])){
                         n1 = n1 + nm;
                     }
                     
+                    //DICA: VOCÊ TAMBÉM PODE USAR pbrovOficial[i].equals(bprov[i])
                     if(pbrovOficial[i] == null ? (bprov[i]) == null : pbrovOficial[i].equals(bprov[i])){
                         n2 = n2 + nm;
                     }
@@ -398,11 +400,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
                     float nm = Float.parseFloat(JOptionPane.showInputDialog("QUANTO VALE CADA QUESTÃO? "));
                 
                     for(int i = 0;i < pprovOficial.length;i++){
-                    
+                        
+                        //DICA: VOCÊ TAMBÉM PODE USAR pprovOficial[i].equals(pprov[i])
                         if(pprovOficial[i] == null ? (pprov[i]) == null : pprovOficial[i].equals(pprov[i])){
                             n1 = n1 + nm;
                         }
-                    
+                        
+                        //DICA: VOCÊ TAMBÉM PODE USAR pbrovOficial[i].equals(bprov[i])
                         if(pbrovOficial[i] == null ? (bprov[i]) == null : pbrovOficial[i].equals(bprov[i])){
                             n2 = n2 + nm;
                         }
